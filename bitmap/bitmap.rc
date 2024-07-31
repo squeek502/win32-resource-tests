@@ -1,0 +1,5 @@
+1 BITMAP "lighths.bmp"
+2 BITMAP "pal8.bmp"
+3 BITMAP "pal8v4.bmp"
+4 BITMAP "pal8v5.bmp"
+5 BITMAP "shortfile.bmp"

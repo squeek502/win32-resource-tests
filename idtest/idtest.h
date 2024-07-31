@@ -1,0 +1,1 @@
+#define ID_SHORTFILE 0x123e123

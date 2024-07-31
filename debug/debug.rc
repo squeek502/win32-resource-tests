@@ -1,0 +1,7 @@
+#ifdef _DEBUG
+#define DATA "debug"
+#else
+#define DATA "release"
+#endif
+
+1 RCDATA { DATA }

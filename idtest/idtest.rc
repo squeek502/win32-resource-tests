@@ -1,0 +1,3 @@
+#include "idtest.h"
+
+ID_SHORTFILE BITMAP "shortfile.bmp"

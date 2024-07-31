@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.13)
+project (win32resourcetests C)
+
+cmake_policy(SET CMP0003 NEW)
+cmake_policy(SET CMP0054 NEW)
+
+add_subdirectory(accelerators)
+add_subdirectory(bitmap)
+add_subdirectory(bitmapview)
+add_subdirectory(versioninfo)
+add_subdirectory(dialog)
+add_subdirectory(menuid)
+add_subdirectory(idtest)
+add_subdirectory(debug)
+add_subdirectory(stringtable)

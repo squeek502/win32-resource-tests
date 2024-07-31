@@ -1,0 +1,22 @@
+1 DIALOGEX 0, 0, 275, 280
+CAPTION "Dialog from .rc"
+MENU 1ABC
+//FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+1ABC MENU 
+BEGIN
+    POPUP "Menu from .rc"
+    BEGIN
+        MENUITEM "Open File", 1
+    END
+END
+
+2899 MENU
+BEGIN
+  POPUP "Wrong menu from .rc"
+  BEGIN
+    MENUITEM "Destroy File", 1
+  END
+END

@@ -1,0 +1,14 @@
+IDD_DIALOG1 DIALOGEX 0, 0, 275, 280
+CAPTION "MFPlayer Sample"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Open File", 1
+    END
+END
