@@ -1,6 +1,4 @@
-/* File custom.c
- * (custom control implementation)
- */
+// From https://www.codeproject.com/Articles/559385/Custom-Controls-in-Win-API-The-Basics
 
 #include <stdio.h>
 #include "custom.h"
