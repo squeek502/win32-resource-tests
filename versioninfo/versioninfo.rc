@@ -17,22 +17,22 @@ VS_VERSION_INFO VERSIONINFO
  FILETYPE 0x1L
  FILESUBTYPE 0x0L
 BEGIN
-    BLOCK "StringFileInfo"
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904e4"
     BEGIN
-        BLOCK "040904e4"
-        BEGIN
-            VALUE "CompanyName", "Microsoft"
-            VALUE "FileDescription", "AmbientLightAware"
-            VALUE "FileVersion", "1.0.0.1"
-            VALUE "InternalName", "AmbientLightAware.exe"
-            VALUE "LegalCopyright", "(c) Microsoft.  All rights reserved."
-            VALUE "OriginalFilename", "AmbientLightAware.exe"
-            VALUE "ProductName", "AmbientLightAware"
-            VALUE "ProductVersion", "1.0.0.1"
-        END
+      VALUE "CompanyName", "Microsoft"
+      VALUE "FileDescription", "AmbientLightAware"
+      VALUE "FileVersion", "1.0.0.1"
+      VALUE "InternalName", "AmbientLightAware.exe"
+      VALUE "LegalCopyright", "(c) Microsoft.  All rights reserved."
+      VALUE "OriginalFilename", "AmbientLightAware.exe"
+      VALUE "ProductName", "AmbientLightAware"
+      VALUE "ProductVersion", "1.0.0.1"
     END
-    BLOCK "VarFileInfo"
-    BEGIN
-        VALUE "Translation", 0x409, 1252
-    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1252
+  END
 END

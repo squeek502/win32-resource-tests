@@ -1,6 +1,6 @@
 1 ACCELERATORS 
 BEGIN 
-    //"B", 302, CONTROL, VIRTKEY
-    //"b", 301, CONTROL
-    "^B", 300
-END 
+  //"B", 302, CONTROL, VIRTKEY
+  //"b", 301, CONTROL
+  "^B", 300
+END

@@ -7,10 +7,10 @@ END
 
 1ABC MENU 
 BEGIN
-    POPUP "Menu from .rc"
-    BEGIN
-        MENUITEM "Open File", 1
-    END
+  POPUP "Menu from .rc"
+  BEGIN
+    MENUITEM "Open File", 1
+  END
 END
 
 2899 MENU
