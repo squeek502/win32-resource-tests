@@ -1,14 +1,10 @@
-IDD_DIALOG1 DIALOGEX 0, 0, 275, 280
-CAPTION "MFPlayer Sample"
-MENU IDR_MENU1
-FONT 8, "MS Shell Dlg", 400, 0, 0x1
-BEGIN
-END
+#include "windows.h"
 
-IDR_MENU1 MENU 
-BEGIN
-    POPUP "File"
-    BEGIN
-        MENUITEM "Open File", 1
-    END
-END
+100 DIALOGEX 0, 0, 282, 239
+  STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+  CAPTION "Dialog"
+{
+  // Removing a byte from this control data causes rc.exe to miscompile the padding after the control
+  PUSHBUTTON "Button",902,129,182,50,14 { "custom button data" }
+  CONTROL "Cancel",901, "CustomControl", 0x10000000L, 129,212,50,14 { "foo", L"bar", 123, 0xFFFFFFFFL }
+}
